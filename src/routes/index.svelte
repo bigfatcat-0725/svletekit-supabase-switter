@@ -33,7 +33,7 @@
 
 <header class="flex justify-between">
 	<h1 class="text-2xl">Welcome to Switter!</h1>
-	<button on:click="{handleSignout}" class="btn">Logout</button>
+	<button on:click="{handleSignout}" class="btn btn-secondary">Logout</button>
 </header>
 <CreatePost />
 

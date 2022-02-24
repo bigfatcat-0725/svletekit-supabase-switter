@@ -22,7 +22,7 @@
 	{#await createPostPromise}
 		<button disabled type="button" class="btn">Swit that Shwit!</button>
 	{:then { data, error }}
-		<button class="btn">Swit that Shwit!</button>
+		<button class="btn btn-secondary">Swit that Shwit!</button>
 		{#if data}
 			<strong class="text-green-600">Successfully create post!</strong>
 		{/if}

@@ -30,7 +30,7 @@
 	}
 </script>
 
-<article class="card shadow-sm bg-accent text-accent-content mt-8">
+<article class="card shadow-xl bg-transparent text-accent-content mt-8">
 	{#if publicURL}
 		<figure>
 			<img src="{publicURL}" alt="img" />
@@ -38,7 +38,7 @@
 	{/if}
 	<div class="card-body">
 		<h2 class="card-title">{user} says..</h2>
-		<p>{content}</p>
+		<p class="mb-8">{content}</p>
 		<div class="card-actions flex justify-between">
 			{#await createCommentPromise}
 				Posting comments..
